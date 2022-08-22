@@ -1,12 +1,8 @@
-# Chat web
+# Chat web - build with react
 
 Real time Chat app in web that inculdes both client and server side.
 The chat client consists both web and android options that can communicate with each other thanks to the server.
-The client side consists 3 pages: Login, Signup, Chat.    
-The web client side was built using react.
-The android client side was build using java.
-The server side was build using ASP.NET with entity framework to manage the database of the chat.   
-In addition the server includes a rating system that was build with MVC and a service that uses a static list with Dependency Injection.    
+The web client side consists 3 pages: Login, Signup, Chat.    
 
 ## You are currently in the repository of the web client side 
 
@@ -16,35 +12,8 @@ First the server needs to be run and then the client.
 When both of them are running the client and server will be able to communicate with one another.  
 The client will be able to send and recieve information from the server's database,  
 In addition the server will be able to send asynchronous notifications to the client-side with signalR.  
-
-### How to run server
-
-#### `git clone`
-
-Clone the repository:  
-Open Visual Studio or other ASP.NET IDE and choose "Clone a repository"  
-enter the following link:  
-https://github.com/DanielTal1/Server-Ex3.git 
-
-#### `download the needed packages`  
-
-Write the following lines int the Package Manager Console:  
-Install-Package EntityFramework (if you don't have it already)  
-Enable-Migrations(if you didn't use Entity Framework before)  
-Update-Database  
-This will initialize the database given by entity framework.  
-Lastly install the signalR library by:  
-right click on the server-try project=> Add => Client-Side Library  
-then choose the following:  
-Provider: unpkg  
-Library: @microsoft/signalr@6.0.6  
-mark choose specific files and choose the files:  
-signalr.js, signalr.min.js inside the folders: files=>dist=>browser  
-This will enable the signalr library in the server.  
-
-#### `run the project`  
-
-### How to run client  
+  
+### How to run the web client  
 
 #### `git clone`  
 
@@ -80,5 +49,3 @@ However, if you choose to add users manualy to the entity framework database ple
 2. In the Contact Table the id propery will function as the contact's Username  
 3. In the Contact Table The UserId is required and will function as the UserName of the user which the contact belong to.  
   
-At any time you can head over to the rank system with the link in the bottom of the screen,  
-and then head back to the chat app by clicking on "Go to chat" in the menu on the top left corner.  
