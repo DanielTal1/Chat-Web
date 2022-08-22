@@ -5,8 +5,6 @@ The chat client can be used with both web and android that can communicate with 
 The web client was built using react and css.
 The web client side consists 3 pages: Login, Signup, Chat.
 
-## You are currently in the repository of the web client side 
-
 ## How to run
 The client and server sides need to be run separately.  
 First the server needs to be run and then the client.  
