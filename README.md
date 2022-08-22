@@ -1,12 +1,14 @@
-# Chat app Project- Margarita Kilinkarov, Daniel Tal  
+# Chat web- Margarita Kilinkarov, Daniel Tal  
 
-Real time Chat app that inculdes both client and server side.   
+Real time Chat app in web that inculdes both client and server side.
+The chat client consists both web and android options that can communicate with each other thanks to the server.
 The client side consists 3 pages: Login, Signup, Chat.    
-The client side built using react.    
+The web client side was built using react.
+The android client side was build using java.
 The server side was build using ASP.NET with entity framework to manage the database of the chat.   
 In addition the server includes a rating system that was build with MVC and a service that uses a static list with Dependency Injection.    
 
-## You are currently in the repository of the client side  
+## You are currently in the repository of the web client side 
 
 ## How to run
 The client and server sides need to be run separately.  
