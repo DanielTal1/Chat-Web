@@ -1,8 +1,9 @@
-# Chat web - build with react
+# Chat web client
 
 Real time Chat app in web that inculdes both client and server side.
-The chat client consists both web and android options that can communicate with each other thanks to the server.
-The web client side consists 3 pages: Login, Signup, Chat.    
+The chat client can be used with both web and android that can communicate with each other thanks to the server.
+The web client was built using react and css.
+The web client side consists 3 pages: Login, Signup, Chat.
 
 ## You are currently in the repository of the web client side 
 
@@ -48,4 +49,3 @@ However, if you choose to add users manualy to the entity framework database ple
 1. In the User Table the id property must be the same as the username property (done automatically when signing up)  
 2. In the Contact Table the id propery will function as the contact's Username  
 3. In the Contact Table The UserId is required and will function as the UserName of the user which the contact belong to.  
-  
