@@ -1,0 +1,41 @@
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100%; 
+}
+.mt-20 {
+    /* margin-top: 20% !important; */
+    margin-top: 2vw;
+}
+.form-container {
+    background-color: rgb(214, 214, 214);
+    border: 1px;
+    padding: 30px !important;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+}
+.error{
+    color:red
+}
+
+@media only screen and (max-width:568px) and (min-width: 0px){
+    .container-fluid{
+        margin-left:0% !important;
+        width: 90vw !important;
+    
+    }
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.row {
+    height: 100%;
+    vertical-align: top;
+    width: 500px;
+}
