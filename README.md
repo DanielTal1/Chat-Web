@@ -1,4 +1,4 @@
-# Chat web- Margarita Kilinkarov, Daniel Tal  
+# Chat web
 
 Real time Chat app in web that inculdes both client and server side.
 The chat client consists both web and android options that can communicate with each other thanks to the server.
