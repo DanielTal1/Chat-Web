@@ -1,13 +1,13 @@
 # Chat web client
 
-Real time Chat app in web that inculdes both client and server side.
-The chat client can be used with both web and android that can communicate with each other thanks to the server.
-The web client was built using react and css.
-The web client side consists 3 pages: Login, Signup, Chat.
+Real time Chat app in web that inculdes both client and server side.  
+The chat client can be used with both web and android that can communicate with each other thanks to the server.  
+The web client was built using react and css.  
+The web client side consists 3 pages: Login, Signup, Chat.  
 
-## How to run
-The client and server sides need to be run separately.  
-First the server needs to be run and then the client.  
+## How to run  
+The client and server sides need to be run separately.    
+First the server needs to be run and then the client.    
 When both of them are running the client and server will be able to communicate with one another.  
 The client will be able to send and recieve information from the server's database,  
 In addition the server will be able to send asynchronous notifications to the client-side with signalR.  
