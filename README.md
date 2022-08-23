@@ -47,3 +47,5 @@ However, if you choose to add users manualy to the entity framework database ple
 1. In the User Table the id property must be the same as the username property (done automatically when signing up)  
 2. In the Contact Table the id propery will function as the contact's Username  
 3. In the Contact Table The UserId is required and will function as the UserName of the user which the contact belong to.  
+
+##
