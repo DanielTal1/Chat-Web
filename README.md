@@ -49,3 +49,7 @@ However, if you choose to add users manualy to the entity framework database ple
 3. In the Contact Table The UserId is required and will function as the UserName of the user which the contact belong to.  
 
 ##
+
+![Screenshot](web1.png)
+
+![Screenshot](web2.png)
