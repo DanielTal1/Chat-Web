@@ -52,4 +52,4 @@ However, if you choose to add users manualy to the entity framework database ple
 
 ![Screenshot](web1.png)
 
-![Screenshot](web2.png)
+![Screenshot](web2.jpg)
